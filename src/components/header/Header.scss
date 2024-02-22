@@ -1,0 +1,31 @@
+@import "../../scss/variable";
+
+.divHeader{
+    text-align: center;
+    margin: 3rem 0 1.5rem;
+    font-size: 2.5rem;
+    padding: 0,5rem;
+    margin-top: 10rem;
+    color: #171B20;
+    letter-spacing: 0.5rem;
+    text-decoration: underline;
+    text-transform:uppercase;
+    span{
+        margin-top: 180px;
+        font-size: 48px "Rubik Distressed", cursive;
+        text-shadow: 2px 2px 4px rgba(0255,255,255,0.5);
+        animation: flicker 1s infinite;  
+    }
+
+    @keyframes flicker {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.3;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
