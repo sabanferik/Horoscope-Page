@@ -17,6 +17,13 @@
         animation: flicker 1s infinite;  
     }
 
+    &:hover{
+         
+        color: #CD890C !important;
+        border-radius: 5px;
+
+    }
+
     @keyframes flicker {
         0% {
             opacity: 1;
